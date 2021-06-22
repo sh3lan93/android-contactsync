@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="com.shalan.contactssync.core.uimodels.Contact" />
+
+        <variable
+            name="item"
+            type="Contact" />
+
+    </data>
+
+    <TextView
+        android:id="@+id/tv_contact_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_5dp"
+        android:text="@{item.name}"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        tools:text="Mohamed" />
+</layout>

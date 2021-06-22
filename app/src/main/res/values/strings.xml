@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ContactsSync</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_read_contacts_message">"We need permission to be able to continue "</string>
+    <string name="txt_empty_data">No data available right now</string>
+    <string name="txt_new_contacts_added">New Contacts Added</string>
+</resources>
