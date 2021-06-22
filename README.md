@@ -25,4 +25,6 @@ Also, I am using a UseCase for updating underlaying database and I do so beacuas
 - ViewModel
 - Livedata 
 
+ ### Important note
+ This app tested on 30 and 22 API versions. 
  
